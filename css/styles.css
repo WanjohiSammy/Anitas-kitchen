@@ -25,10 +25,22 @@ span{
   color:#ffffff;
 }
 #party{
+  color: white;
   background-color: #F15A29;
+  padding: 10px;
 }
 #happy{
+  color: white;
+  background-color: grey;
+  padding: 10px;
 }
 .otherRows{
 
+}
+.Aimage{
+  padding: 50px;
+}
+.paragraph{
+  padding-top: 100px;
+  padding-left: 5px;
 }
