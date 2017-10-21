@@ -35,8 +35,11 @@ span{
 .container-fluid{
   padding: 0px;
 }
+.bg-1{
+  padding: 0;
+}
 .bg-10{
-  padding: 0px;
+  padding: 0;
 }
 .fast{
   margin-bottom: 10%;
@@ -51,6 +54,7 @@ span{
 
 }
 .faster{
+  display: flex;
   margin-bottom: 10%;
   margin-left: 0%;
   margin-right: 30%;
