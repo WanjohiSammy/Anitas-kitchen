@@ -1,21 +1,85 @@
 .media{
-    background-image:url("../images/assets/backgrounds/landing.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100vh;
+padding: 0;
+height: 850px;
+width:100%;
+background-image:url("../images/assets/backgrounds/landing.jpg");
+background-repeat: no-repeat;
+background-position: center center;
+background-attachment: fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+margin-top: 70px;
 }
-#logo{
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    font-size: 40px;
-    transform: translate(-50%,-50%);
-    -ms-transform: translate(-50%,-50%);
+.overlay{
+padding: 0;
+margin: auto;
+width: 100%;
+height: 850px;
+background: black;
+background:rgba(0,0,0,0.0);
+}
+.header{
+margin-top: 3%;
+text-align: center;
+font-family: 'Handlee', Open Sans;
+color: white;
+font-size: 60px;
+}
+.men{
+margin-top: 20px;
+margin-left: 20px;
+background-color: transparent;
+height: 50px;
+width: 75px;
+}
+
+.overlayMenu {
+height: 100%;
+width: 0;
+position: fixed;
+z-index: 1;
+top: 0;
+left: 0;
+background-color: #F15A29;
+overflow-x: hidden;
+transition: 0.5s;
+}
+
+.overlay-content {
+position: relative;
+top: 25%;
+width: 100%;
+text-align: center;
+margin-top: 30px;
+}
+.overlayMenu a {
+padding: 8px;
+text-decoration: none;
+font-size: 36px;
+color: #000000;
+display: block;
+transition: 0.3s;
+}
+
+.overlayMenu a:hover, .overlayMenu a:focus {
+color: #f1f1f1;
+}
+
+.overlayMenu .closebtn {
+position: absolute;
+top: 20px;
+right: 45px;
+font-size: 60px;
+}
+
+.header{
+
+}
+.logo{
+  text-align: center;
+
 }
 span{
   font-size:50px;
