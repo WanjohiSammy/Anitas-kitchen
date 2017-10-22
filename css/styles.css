@@ -121,3 +121,27 @@ padding: 50px;
   padding: 5%;
   text-align: center;
 }
+.bgMail{
+  padding: 0;
+  height: 300px;
+  width:100%;
+  background-image: url(../images/assets/backgrounds/subscribe.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.mailText{
+  text-align: center;
+  margin-top: 2%;
+  color: #ffffff;
+}
+.mail{
+text-align: center;
+height: 200px;
+width: 80%;
+margin-top: 20px;
+margin-bottom: 30px;
+margin-left: 10%;
+margin-right: 10%;
+background-color: transparent;
+}
