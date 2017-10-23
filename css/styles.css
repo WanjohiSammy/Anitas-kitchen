@@ -50,7 +50,9 @@ background-color: #F15A29;
 overflow-x: hidden;
 transition: 0.5s;
 }
-
+#view{
+  color: #F15A29 ;
+}
 .overlay-content {
 position: relative;
 top: 25%;
