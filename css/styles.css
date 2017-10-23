@@ -222,3 +222,68 @@ text-align: center;
 margin-top: 3%;
 color: #ffffff;
 }
+#happy{
+  padding: 20px;
+  background-color: #9a9292 ;
+  text-align: center;
+  width: 320px;
+}
+
+#party{
+  padding: 20px;
+  background-color:#F15A29 ;
+  color: #FFFFFF ;
+  text-align: center;
+  width: 315px;
+ }
+#lunch:hover .overlay-row{
+  opacity: 3;
+}
+#dinner{
+   background-image: url(../images/assets/foodtop/dinner.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding-bottom: 205.5px;
+ }
+ #dinner:hover .overlay-row{
+   opacity: 3;
+ }
+#breakfast{
+  background-image: url(../images/assets/foodtop/breakfast.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 205.5px;
+}
+#lunch{
+  background-image: url(../images/assets/foodtop/lunch.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 205.5px;
+}
+#breakfast:hover .overlay-row{
+  opacity: 3;
+}
+
+.overlay-row {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #E5E5E5 ;
+  color: #FFFFFF ;
+  text-transform: capitalize;
+  font-size: 30px;
+}
+.text {
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
